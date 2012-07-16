@@ -1,0 +1,34 @@
+name: CartWarp
+main: com.hawkfalcon.CartWarp.CartWarp
+version: 0.1.1
+description: Warp out of minecarts
+author: hawkfalcon
+commands:
+   cartwarpsetspawn:
+       aliases: cwsetspawn
+       description: Set spawn
+       permission: cartwarp.setspawn
+       permission-message: You do not have access to this command
+   cwon:
+       description: Enable plugin
+       permission: cartwarp.cwon
+       permission-message: You do not have access to this command
+       
+   cwoff:
+       description: Disable plugin
+       permission: cartwarp.cwoff
+       permission-message: You do not have access to this command
+   
+   
+permissions:
+   cartwarp.setspawn:
+       default: OP
+   
+   cartwarp.cwon:
+       default: OP
+
+   cartwarp.cwoff:
+       default: OP
+
+   cartwarp.bypass:
+       default: OP
